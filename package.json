@@ -13,5 +13,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/liamrota/vue3-ls"
+  },
+  "main": "./dist/vue3-ls.umd.js",
+  "module": "./dist/vue3-ls.es.js",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-ls.es.js",
+      "require": "./dist/vue3-ls.umd.js"
+    }
   }
 }
