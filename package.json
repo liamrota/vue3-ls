@@ -1,0 +1,13 @@
+{
+  "name": "vue3-ls",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-lib": "vite build -c vite.lib.config.js",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.6.4"
+  }
+}
