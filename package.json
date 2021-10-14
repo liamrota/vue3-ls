@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "vite": "^2.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liamrota/vue3-ls"
   }
 }
