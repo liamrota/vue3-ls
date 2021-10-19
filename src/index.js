@@ -18,7 +18,7 @@ const VueStorage = {
     const _options = {
       ...options,
       storage: options.storage || 'local',
-      name: options.name || 'ls',
+      name: options.name || '$ls',
     };
 
     if (_options.storage && ['memory', 'local', 'session'].indexOf(_options.storage) === -1) {
